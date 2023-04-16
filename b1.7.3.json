@@ -26,6 +26,41 @@
       "name": "org.lwjgl:lwjgl:3.3.2"
     },
     {
+      "extract": {
+        "exclude": [
+          "META-INF/"
+        ]
+      },
+      "downloads": {
+        "classifiers": {
+          "natives-windows": {
+            "sha1": "a55169ced70ffcd15f2162daf4a9c968578f6cd5",
+            "path": "org/lwjgl/lwjgl/3.3.2/lwjgl-3.3.2-natives-windows.jar",
+            "size": 164993,
+            "url": "https://repo1.maven.org/maven2/org/lwjgl/lwjgl/3.3.2/lwjgl-3.3.2-natives-windows.jar"
+          },
+          "natives-osx": {
+            "sha1": "3256dce7fa36d6b572afa5e5730f532cf987f3bf",
+            "path": "org/lwjgl/lwjgl/3.3.2/lwjgl-3.3.2-natives-osx.jar",
+            "size": 60240,
+            "url": "https://repo1.maven.org/maven2/org/lwjgl/lwjgl/3.3.2/lwjgl-3.3.2-natives-macos.jar"
+          },
+          "natives-linux": {
+            "sha1": "767684973f259d97e7dc66a125eb153986f177e7",
+            "path": "org/lwjgl/lwjgl/3.3.2/lwjgl-3.3.2-natives-linux.jar",
+            "size": 114144,
+            "url": "https://repo1.maven.org/maven2/org/lwjgl/lwjgl/3.3.2/lwjgl-3.3.2-natives-linux.jar"
+          }
+        }
+      },
+      "name": "org.lwjgl:lwjgl-glfw:3.3.2",
+      "natives": {
+        "osx": "natives-osx",
+        "linux": "natives-linux",
+        "windows": "natives-windows"
+      } 
+    },
+    {
       "downloads": {
         "artifact": {
           "path": "org/lwjgl/lwjgl-glfw/3.3.2/lwjgl-glfw-3.3.2.jar",
