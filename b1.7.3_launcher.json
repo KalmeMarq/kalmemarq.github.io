@@ -53,7 +53,7 @@
           }
         }
       },
-      "name": "org.lwjgl:lwjgl-glfw:3.3.2",
+      "name": "org.lwjgl:lwjgl:3.3.2",
       "natives": {
         "osx": "natives-osx",
         "linux": "natives-linux",
