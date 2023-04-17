@@ -34,10 +34,10 @@
       "downloads": {
         "classifiers": {
           "natives-windows": {
-            "sha1": "a55169ced70ffcd15f2162daf4a9c968578f6cd5",
+            "sha1": "583879fc64b98bf32c5e7cc3586b04ce9280c57e",
             "path": "org/lwjgl/lwjgl/3.3.2/lwjgl-3.3.2-natives-windows.jar",
-            "size": 164993,
-            "url": "https://repo1.maven.org/maven2/org/lwjgl/lwjgl/3.3.2/lwjgl-3.3.2-natives-windows.jar"
+            "size": 158905,
+            "url": "https://kalmemarq.github.io/retro-mcp-java/lwjgl/lwjgl-3.3.2-natives-windows.jar"
           },
           "natives-osx": {
             "sha1": "3256dce7fa36d6b572afa5e5730f532cf987f3bf",
@@ -88,10 +88,10 @@
       "downloads": {
         "classifiers": {
           "natives-windows": {
-            "sha1": "01251e3cb7e5d6159334cfb9244f789ce992f03b",
+            "sha1": "e92fb1b90fd396198a88d76d4293339a80c29446",
             "path": "org/lwjgl/lwjgl-glfw/3.3.2/lwjgl-glfw-3.3.2-natives-windows.jar",
-            "size": 165947,
-            "url": "https://repo1.maven.org/maven2/org/lwjgl/lwjgl-glfw/3.3.2/lwjgl-glfw-3.3.2-natives-windows.jar"
+            "size": 159217,
+            "url": "https://kalmemarq.github.io/retro-mcp-java/lwjgl/lwjgl-glfw-3.3.2-natives-windows.jar"
           },
           "natives-osx": {
             "sha1": "8223ba1b757c43624f03b09ab9d9228c7f6db001",
@@ -142,10 +142,10 @@
       "downloads": {
         "classifiers": {
           "natives-windows": {
-            "sha1": "db886c1f9e313c3fa2a25543b99ccd250d3f9fb5",
+            "sha1": "615570dce2c19910f37f6de63bc9582f8a76e41c",
             "path": "org/lwjgl/lwjgl-jemalloc/3.3.2/lwjgl-jemalloc-3.3.2-natives-windows.jar",
-            "size": 180026,
-            "url": "https://repo1.maven.org/maven2/org/lwjgl/lwjgl-jemalloc/3.3.2/lwjgl-jemalloc-3.3.2-natives-windows.jar"
+            "size": 172444,
+            "url": "https://kalmemarq.github.io/retro-mcp-java/lwjgl/lwjgl-jemalloc-3.3.2-natives-windows.jar"
           },
           "natives-osx": {
             "sha1": "959ea96ea27cd1ee45943123140fdb55c49e961f",
@@ -196,10 +196,10 @@
       "downloads": {
         "classifiers": {
           "natives-windows": {
-            "sha1": "83cd34469d4e0bc335bf74c7f62206530a9480bf",
+            "sha1": "9a3ffe9bcc757ba77529ec4e91454f436f134032",
             "path": "org/lwjgl/lwjgl-opengl/3.3.2/lwjgl-opengl-3.3.2-natives-windows.jar",
-            "size": 101530,
-            "url": "https://repo1.maven.org/maven2/org/lwjgl/lwjgl-opengl/3.3.2/lwjgl-opengl-3.3.2-natives-windows.jar"
+            "size": 96291,
+            "url": "https://kalmemarq.github.io/retro-mcp-java/lwjgl/lwjgl-opengl-3.3.2-natives-windows.jar"
           },
           "natives-osx": {
             "sha1": "05141389ca737369f317b1288a570534c40db9cf",
@@ -250,10 +250,10 @@
       "downloads": {
         "classifiers": {
           "natives-windows": {
-            "sha1": "e74f299a602192faaf14b917632e4cbbb493c940",
+            "sha1": "eb0d5e0c6ff31630e194ded123ab2339c124982d",
             "path": "org/lwjgl/lwjgl-openal/3.3.2/lwjgl-openal-3.3.2-natives-windows.jar",
-            "size": 694908,
-            "url": "https://repo1.maven.org/maven2/org/lwjgl/lwjgl-openal/3.3.2/lwjgl-openal-3.3.2-natives-windows.jar"
+            "size": 678915,
+            "url": "https://kalmemarq.github.io/retro-mcp-java/lwjgl/lwjgl-openal-3.3.2-natives-windows.jar"
           },
           "natives-osx": {
             "sha1": "56fa16d15039142634e3a6d97d638b56679be821",
@@ -304,10 +304,10 @@
       "downloads": {
         "classifiers": {
           "natives-windows": {
-            "sha1": "1c4f4b8353bdb78c5264ab921436f03fc9aa1ba5",
+            "sha1": "510bb35c815750d2a538a56f8ef5f7f281c2b058",
             "path": "org/lwjgl/lwjgl-stb/3.3.2/lwjgl-stb-3.3.2-natives-windows.jar",
-            "size": 261137,
-            "url": "https://repo1.maven.org/maven2/org/lwjgl/lwjgl-stb/3.3.2/lwjgl-stb-3.3.2-natives-windows.jar"
+            "size": 251751,
+            "url": "https://kalmemarq.github.io/retro-mcp-java/lwjgl/lwjgl-stb-3.3.2-natives-windows.jar"
           },
           "natives-osx": {
             "sha1": "61614cb49cee0b95587893a36bd72f63ab815c82",
