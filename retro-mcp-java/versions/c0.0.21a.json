@@ -24,6 +24,25 @@
     {
       "downloads": {
         "artifact": {
+          "path": "org/joml/joml/1.10.5/joml-1.10.5.jar",
+          "sha1": "22566d58af70ad3d72308bab63b8339906deb649",
+          "size": 712082,
+          "url": "https://repo1.maven.org/maven2/org/joml/joml/1.10.5/joml-1.10.5.jar"
+        },
+        "classifiers": {
+          "sources": {
+            "sha1": "c1f2266a7d0386d7643879ed1b93f51d29126180",
+            "path": "org/joml/joml/1.10.5/joml-1.10.5-sources.jar",
+            "size": 691986,
+            "url": "https://repo1.maven.org/maven2/org/joml/joml/1.10.5/joml-1.10.5-sources.jar"
+          }
+        }
+      },
+      "name": "org.joml:joml:1.10.5"
+    },
+    {
+      "downloads": {
+        "artifact": {
           "path": "com/google/code/gson/gson/2.10.1/gson-2.10.1.jar",
           "sha1": "b3add478d4382b78ea20b1671390a858002feb6c",
           "size": 283367,
