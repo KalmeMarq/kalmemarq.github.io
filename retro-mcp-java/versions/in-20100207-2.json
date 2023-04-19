@@ -1,0 +1,576 @@
+{
+  "releaseTime": "2010-02-07T16:03:36+00:00",
+  "assets": "empty",
+  "minecraftArguments": "--username ${auth_player_name} --sessionid ${auth_session} --gameDir ${game_directory} --assetsDir ${game_assets} --resourcesProxyPort 11702 --skinProxy pre-b1.9-pre4",
+  "mainClass": "org.mcphackers.launchwrapper.Launch",
+  "downloads": {
+    "client": {
+      "sha1": "fa8525be5612d00f6001be7d4cdb764b66e88f9d",
+      "size": 464930,
+      "url": "http://files.betacraft.uk/launcher/assets/versions/in-20100207-2.jar"
+    }
+  },
+  "javaVersion": {
+    "component": "jre-legacy",
+    "majorVersion": 8
+  },
+  "libraries": [
+    {
+      "downloads": {
+        "artifact": {
+          "path": "com/google/code/gson/gson/2.10.1/gson-2.10.1.jar",
+          "sha1": "b3add478d4382b78ea20b1671390a858002feb6c",
+          "size": 283367,
+          "url": "https://repo1.maven.org/maven2/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar"
+        },
+        "classifiers": {
+          "sources": {
+            "sha1": "982a90132e942f302e6fe79d6e78c4bc2e998569",
+            "path": "com/google/code/gson/gson/2.10.1/gson-2.10.1-sources.jar",
+            "size": 181840,
+            "url": "https://repo1.maven.org/maven2/com/google/code/gson/gson/2.10.1/gson-2.10.1-sources.jar"
+          }
+        }
+      },
+      "name": "com.google.code.gson:gson:2.10.1"
+    },
+    {
+      "extract": {
+        "exclude": [
+          "META-INF/"
+        ]
+      },
+      "downloads": {
+        "classifiers": {
+          "natives-linux": {
+            "sha1": "05d27fc67172b3fcd8400d61a7cfb75da881f609",
+            "size": 43961,
+            "path": "org/lwjgl/lwjgl-tinyfd/3.3.2/lwjgl-tinyfd-3.3.2-natives-linux.jar",
+            "url": "https://kalmemarq.github.io/retro-mcp-java/lwjgl-natives/3.3.2/lwjgl-tinyfd-3.3.2-natives-linux.jar"
+          },
+          "natives-osx": {
+            "sha1": "ce88dcda2fffe5d912de8ea1dabd68490a8f8471",
+            "size": 45096,
+            "path": "org/lwjgl/lwjgl-tinyfd/3.3.2/lwjgl-tinyfd-3.3.2-natives-macos.jar",
+            "url": "https://kalmemarq.github.io/retro-mcp-java/lwjgl-natives/3.3.2/lwjgl-tinyfd-3.3.2-natives-macos.jar"
+          },
+          "natives-windows": {
+            "sha1": "54a93ed247d20007a6f579355263fdc2c030753a",
+            "size": 130126,
+            "path": "org/lwjgl/lwjgl-tinyfd/3.3.2/lwjgl-tinyfd-3.3.2-natives-windows.jar",
+            "url": "https://kalmemarq.github.io/retro-mcp-java/lwjgl-natives/3.3.2/lwjgl-tinyfd-3.3.2-natives-windows.jar"
+          }
+        }
+      },
+      "name": "org.lwjgl:lwjgl-natives:3.3.2",
+      "natives": {
+        "osx": "natives-osx",
+        "linux": "natives-linux",
+        "windows": "natives-windows"
+      }
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "path": "org/lwjgl/lwjgl-tinyfd/3.3.2/lwjgl-tinyfd-3.3.2.jar",
+          "sha1": "9f65c248dd77934105274fcf8351abb75b34327c",
+          "size": 13404,
+          "url": "https://repo1.maven.org/maven2/org/lwjgl/lwjgl-tinyfd/3.3.2/lwjgl-tinyfd-3.3.2.jar"
+        },
+        "classifiers": {
+          "sources": {
+            "path": "org/lwjgl/lwjgl-tinyfd/3.3.2/lwjgl-tinyfd-3.3.2-sources.jar",
+            "sha1": "bd33407b8cdbac1161c759656034d283f4708051",
+            "size": 5527,
+            "url": "https://repo1.maven.org/maven2/org/lwjgl/lwjgl-tinyfd/3.3.2/lwjgl-tinyfd-3.3.2-sources.jar"
+          }
+        }
+      },
+      "name": "org.lwjgl:lwjgl-tinyfd:3.3.2"
+    },
+    {
+      "extract": {
+        "exclude": [
+          "META-INF/"
+        ]
+      },
+      "downloads": {
+        "classifiers": {
+          "natives-linux": {
+            "sha1": "5c987f43b342d722b54970159040af76f1c87403",
+            "size": 231821,
+            "path": "org/lwjgl/lwjgl-stb/3.3.2/lwjgl-stb-3.3.2-natives-linux.jar",
+            "url": "https://kalmemarq.github.io/retro-mcp-java/lwjgl-natives/3.3.2/lwjgl-stb-3.3.2-natives-linux.jar"
+          },
+          "natives-osx": {
+            "sha1": "61614cb49cee0b95587893a36bd72f63ab815c82",
+            "size": 216457,
+            "path": "org/lwjgl/lwjgl-stb/3.3.2/lwjgl-stb-3.3.2-natives-macos.jar",
+            "url": "https://kalmemarq.github.io/retro-mcp-java/lwjgl-natives/3.3.2/lwjgl-stb-3.3.2-natives-macos.jar"
+          },
+          "natives-windows": {
+            "sha1": "1c4f4b8353bdb78c5264ab921436f03fc9aa1ba5",
+            "size": 261137,
+            "path": "org/lwjgl/lwjgl-stb/3.3.2/lwjgl-stb-3.3.2-natives-windows.jar",
+            "url": "https://kalmemarq.github.io/retro-mcp-java/lwjgl-natives/3.3.2/lwjgl-stb-3.3.2-natives-windows.jar"
+          }
+        }
+      },
+      "name": "org.lwjgl:lwjgl-natives:3.3.2",
+      "natives": {
+        "osx": "natives-osx",
+        "linux": "natives-linux",
+        "windows": "natives-windows"
+      }
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "path": "org/lwjgl/lwjgl-stb/3.3.2/lwjgl-stb-3.3.2.jar",
+          "sha1": "a2550795014d622b686e9caac50b14baa87d2c70",
+          "size": 118874,
+          "url": "https://repo1.maven.org/maven2/org/lwjgl/lwjgl-stb/3.3.2/lwjgl-stb-3.3.2.jar"
+        },
+        "classifiers": {
+          "sources": {
+            "path": "org/lwjgl/lwjgl-stb/3.3.2/lwjgl-stb-3.3.2-sources.jar",
+            "sha1": "dda437f20ae0c920c1c744984b4093889982b994",
+            "size": 103496,
+            "url": "https://repo1.maven.org/maven2/org/lwjgl/lwjgl-stb/3.3.2/lwjgl-stb-3.3.2-sources.jar"
+          }
+        }
+      },
+      "name": "org.lwjgl:lwjgl-stb:3.3.2"
+    },
+    {
+      "extract": {
+        "exclude": [
+          "META-INF/"
+        ]
+      },
+      "downloads": {
+        "classifiers": {
+          "natives-linux": {
+            "sha1": "b8368430ef0d91a5acbc6fbfa47b20c3ec083aec",
+            "size": 80464,
+            "path": "org/lwjgl/lwjgl-opengl/3.3.2/lwjgl-opengl-3.3.2-natives-linux.jar",
+            "url": "https://kalmemarq.github.io/retro-mcp-java/lwjgl-natives/3.3.2/lwjgl-opengl-3.3.2-natives-linux.jar"
+          },
+          "natives-osx": {
+            "sha1": "05141389ca737369f317b1288a570534c40db9cf",
+            "size": 41485,
+            "path": "org/lwjgl/lwjgl-opengl/3.3.2/lwjgl-opengl-3.3.2-natives-macos.jar",
+            "url": "https://kalmemarq.github.io/retro-mcp-java/lwjgl-natives/3.3.2/lwjgl-opengl-3.3.2-natives-macos.jar"
+          },
+          "natives-windows": {
+            "sha1": "83cd34469d4e0bc335bf74c7f62206530a9480bf",
+            "size": 101530,
+            "path": "org/lwjgl/lwjgl-opengl/3.3.2/lwjgl-opengl-3.3.2-natives-windows.jar",
+            "url": "https://kalmemarq.github.io/retro-mcp-java/lwjgl-natives/3.3.2/lwjgl-opengl-3.3.2-natives-windows.jar"
+          }
+        }
+      },
+      "name": "org.lwjgl:lwjgl-natives:3.3.2",
+      "natives": {
+        "osx": "natives-osx",
+        "linux": "natives-linux",
+        "windows": "natives-windows"
+      }
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "path": "org/lwjgl/lwjgl-opengl/3.3.2/lwjgl-opengl-3.3.2.jar",
+          "sha1": "ee8e95be0b438602038bc1f02dc5e3d011b1b216",
+          "size": 928871,
+          "url": "https://repo1.maven.org/maven2/org/lwjgl/lwjgl-opengl/3.3.2/lwjgl-opengl-3.3.2.jar"
+        },
+        "classifiers": {
+          "sources": {
+            "path": "org/lwjgl/lwjgl-opengl/3.3.2/lwjgl-opengl-3.3.2-sources.jar",
+            "sha1": "1301ff0d9814ac96d7020f5912d5f0f72c039fca",
+            "size": 1275908,
+            "url": "https://repo1.maven.org/maven2/org/lwjgl/lwjgl-opengl/3.3.2/lwjgl-opengl-3.3.2-sources.jar"
+          }
+        }
+      },
+      "name": "org.lwjgl:lwjgl-opengl:3.3.2"
+    },
+    {
+      "extract": {
+        "exclude": [
+          "META-INF/"
+        ]
+      },
+      "downloads": {
+        "classifiers": {
+          "natives-linux": {
+            "sha1": "650981780b8bbfb3ce43657b22ec8e77bfb1f37a",
+            "size": 579919,
+            "path": "org/lwjgl/lwjgl-openal/3.3.2/lwjgl-openal-3.3.2-natives-linux.jar",
+            "url": "https://kalmemarq.github.io/retro-mcp-java/lwjgl-natives/3.3.2/lwjgl-openal-3.3.2-natives-linux.jar"
+          },
+          "natives-osx": {
+            "sha1": "56fa16d15039142634e3a6d97d638b56679be821",
+            "size": 515159,
+            "path": "org/lwjgl/lwjgl-openal/3.3.2/lwjgl-openal-3.3.2-natives-macos.jar",
+            "url": "https://kalmemarq.github.io/retro-mcp-java/lwjgl-natives/3.3.2/lwjgl-openal-3.3.2-natives-macos.jar"
+          },
+          "natives-windows": {
+            "sha1": "e74f299a602192faaf14b917632e4cbbb493c940",
+            "size": 694908,
+            "path": "org/lwjgl/lwjgl-openal/3.3.2/lwjgl-openal-3.3.2-natives-windows.jar",
+            "url": "https://kalmemarq.github.io/retro-mcp-java/lwjgl-natives/3.3.2/lwjgl-openal-3.3.2-natives-windows.jar"
+          }
+        }
+      },
+      "name": "org.lwjgl:lwjgl-natives:3.3.2",
+      "natives": {
+        "osx": "natives-osx",
+        "linux": "natives-linux",
+        "windows": "natives-windows"
+      }
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "path": "org/lwjgl/lwjgl-openal/3.3.2/lwjgl-openal-3.3.2.jar",
+          "sha1": "ae5357ed6d934546d3533993ea84c0cfb75eed95",
+          "size": 108230,
+          "url": "https://repo1.maven.org/maven2/org/lwjgl/lwjgl-openal/3.3.2/lwjgl-openal-3.3.2.jar"
+        },
+        "classifiers": {
+          "sources": {
+            "path": "org/lwjgl/lwjgl-openal/3.3.2/lwjgl-openal-3.3.2-sources.jar",
+            "sha1": "534195bc70b8ff83c270c1d618cdafe76e9be2c4",
+            "size": 100606,
+            "url": "https://repo1.maven.org/maven2/org/lwjgl/lwjgl-openal/3.3.2/lwjgl-openal-3.3.2-sources.jar"
+          }
+        }
+      },
+      "name": "org.lwjgl:lwjgl-openal:3.3.2"
+    },
+    {
+      "extract": {
+        "exclude": [
+          "META-INF/"
+        ]
+      },
+      "downloads": {
+        "classifiers": {
+          "natives-linux": {
+            "sha1": "2bc33176cdfabf34a63df154b80914e8f433316b",
+            "size": 204677,
+            "path": "org/lwjgl/lwjgl-jemalloc/3.3.2/lwjgl-jemalloc-3.3.2-natives-linux.jar",
+            "url": "https://kalmemarq.github.io/retro-mcp-java/lwjgl-natives/3.3.2/lwjgl-jemalloc-3.3.2-natives-linux.jar"
+          },
+          "natives-osx": {
+            "sha1": "959ea96ea27cd1ee45943123140fdb55c49e961f",
+            "size": 153695,
+            "path": "org/lwjgl/lwjgl-jemalloc/3.3.2/lwjgl-jemalloc-3.3.2-natives-macos.jar",
+            "url": "https://kalmemarq.github.io/retro-mcp-java/lwjgl-natives/3.3.2/lwjgl-jemalloc-3.3.2-natives-macos.jar"
+          },
+          "natives-windows": {
+            "sha1": "db886c1f9e313c3fa2a25543b99ccd250d3f9fb5",
+            "size": 180026,
+            "path": "org/lwjgl/lwjgl-jemalloc/3.3.2/lwjgl-jemalloc-3.3.2-natives-windows.jar",
+            "url": "https://kalmemarq.github.io/retro-mcp-java/lwjgl-natives/3.3.2/lwjgl-jemalloc-3.3.2-natives-windows.jar"
+          }
+        }
+      },
+      "name": "org.lwjgl:lwjgl-natives:3.3.2",
+      "natives": {
+        "osx": "natives-osx",
+        "linux": "natives-linux",
+        "windows": "natives-windows"
+      }
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "path": "org/lwjgl/lwjgl-jemalloc/3.3.2/lwjgl-jemalloc-3.3.2.jar",
+          "sha1": "877e17e39ebcd58a9c956dc3b5b777813de0873a",
+          "size": 43233,
+          "url": "https://repo1.maven.org/maven2/org/lwjgl/lwjgl-jemalloc/3.3.2/lwjgl-jemalloc-3.3.2.jar"
+        },
+        "classifiers": {
+          "sources": {
+            "path": "org/lwjgl/lwjgl-jemalloc/3.3.2/lwjgl-jemalloc-3.3.2-sources.jar",
+            "sha1": "1d953086a319cfb09d0703e50011849a95ab2277",
+            "size": 32303,
+            "url": "https://repo1.maven.org/maven2/org/lwjgl/lwjgl-jemalloc/3.3.2/lwjgl-jemalloc-3.3.2-sources.jar"
+          }
+        }
+      },
+      "name": "org.lwjgl:lwjgl-jemalloc:3.3.2"
+    },
+    {
+      "extract": {
+        "exclude": [
+          "META-INF/"
+        ]
+      },
+      "downloads": {
+        "classifiers": {
+          "natives-linux": {
+            "sha1": "0766bb0e8e829598b1c8052fd8173c62af741c52",
+            "size": 115553,
+            "path": "org/lwjgl/lwjgl-glfw/3.3.2/lwjgl-glfw-3.3.2-natives-linux.jar",
+            "url": "https://kalmemarq.github.io/retro-mcp-java/lwjgl-natives/3.3.2/lwjgl-glfw-3.3.2-natives-linux.jar"
+          },
+          "natives-osx": {
+            "sha1": "8223ba1b757c43624f03b09ab9d9228c7f6db001",
+            "size": 140627,
+            "path": "org/lwjgl/lwjgl-glfw/3.3.2/lwjgl-glfw-3.3.2-natives-macos.jar",
+            "url": "https://kalmemarq.github.io/retro-mcp-java/lwjgl-natives/3.3.2/lwjgl-glfw-3.3.2-natives-macos.jar"
+          },
+          "natives-windows": {
+            "sha1": "01251e3cb7e5d6159334cfb9244f789ce992f03b",
+            "size": 165947,
+            "path": "org/lwjgl/lwjgl-glfw/3.3.2/lwjgl-glfw-3.3.2-natives-windows.jar",
+            "url": "https://kalmemarq.github.io/retro-mcp-java/lwjgl-natives/3.3.2/lwjgl-glfw-3.3.2-natives-windows.jar"
+          }
+        }
+      },
+      "name": "org.lwjgl:lwjgl-natives:3.3.2",
+      "natives": {
+        "osx": "natives-osx",
+        "linux": "natives-linux",
+        "windows": "natives-windows"
+      }
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "path": "org/lwjgl/lwjgl-glfw/3.3.2/lwjgl-glfw-3.3.2.jar",
+          "sha1": "757920418805fb90bfebb3d46b1d9e7669fca2eb",
+          "size": 135828,
+          "url": "https://repo1.maven.org/maven2/org/lwjgl/lwjgl-glfw/3.3.2/lwjgl-glfw-3.3.2.jar"
+        },
+        "classifiers": {
+          "sources": {
+            "path": "org/lwjgl/lwjgl-glfw/3.3.2/lwjgl-glfw-3.3.2-sources.jar",
+            "sha1": "0bdd2ae91adb35fd7809b7ecf2d677546b26fe4f",
+            "size": 126160,
+            "url": "https://repo1.maven.org/maven2/org/lwjgl/lwjgl-glfw/3.3.2/lwjgl-glfw-3.3.2-sources.jar"
+          }
+        }
+      },
+      "name": "org.lwjgl:lwjgl-glfw:3.3.2"
+    },
+    {
+      "extract": {
+        "exclude": [
+          "META-INF/"
+        ]
+      },
+      "downloads": {
+        "classifiers": {
+          "natives-linux": {
+            "sha1": "60a382560be705c1808609f8161e4f8e6fbf6fda",
+            "size": 112915,
+            "path": "org/lwjgl/lwjgl/3.3.2/lwjgl-3.3.2-natives-linux.jar",
+            "url": "https://kalmemarq.github.io/retro-mcp-java/lwjgl-natives/3.3.2/lwjgl-3.3.2-natives-linux.jar"
+          },
+          "natives-osx": {
+            "sha1": "ec71831f783e2fb17ec2b11fa89832c844b565d5",
+            "size": 58226,
+            "path": "org/lwjgl/lwjgl/3.3.2/lwjgl-3.3.2-natives-macos.jar",
+            "url": "https://kalmemarq.github.io/retro-mcp-java/lwjgl-natives/3.3.2/lwjgl-3.3.2-natives-macos.jar"
+          },
+          "natives-windows": {
+            "sha1": "b82ef609c6f040389e85ffb941a4e70e231f1ef7",
+            "size": 163389,
+            "path": "org/lwjgl/lwjgl/3.3.2/lwjgl-3.3.2-natives-windows.jar",
+            "url": "https://kalmemarq.github.io/retro-mcp-java/lwjgl-natives/3.3.2/lwjgl-3.3.2-natives-windows.jar"
+          }
+        }
+      },
+      "name": "org.lwjgl:lwjgl-natives:3.3.2",
+      "natives": {
+        "osx": "natives-osx",
+        "linux": "natives-linux",
+        "windows": "natives-windows"
+      }
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "path": "org/lwjgl/lwjgl/3.3.2/lwjgl-3.3.2.jar",
+          "sha1": "4421d94af68e35dcaa31737a6fc59136a1e61b94",
+          "size": 786196,
+          "url": "https://repo1.maven.org/maven2/org/lwjgl/lwjgl/3.3.2/lwjgl-3.3.2.jar"
+        },
+        "classifiers": {
+          "sources": {
+            "path": "org/lwjgl/lwjgl/3.3.2/lwjgl-3.3.2-sources.jar",
+            "sha1": "aff949f8180d6d1e26a47c7a2bca8163f5b987fe",
+            "size": 624340,
+            "url": "https://repo1.maven.org/maven2/org/lwjgl/lwjgl/3.3.2/lwjgl-3.3.2-sources.jar"
+          }
+        }
+      },
+      "name": "org.lwjgl:lwjgl:3.3.2"
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "d3414b749dbb24dd0f73618a93ec2c551e5a02ca",
+          "path": "org/mcphackers/launchwrapper/1.0/launchwrapper-1.0.jar",
+          "size": 112159,
+          "url": "https://mcphackers.github.io/libraries/org/mcphackers/launchwrapper/1.0/launchwrapper-1.0.jar"
+        },
+        "classifiers": {
+          "sources": {
+            "sha1": "4bbcb8af0d1d47fe4dd192cb4f53820257abcc85",
+            "path": "org/mcphackers/launchwrapper/1.0/launchwrapper-1.0-sources.jar",
+            "size": 74343,
+            "url": "https://mcphackers.github.io/libraries/org/mcphackers/launchwrapper/1.0/launchwrapper-1.0-sources.jar"
+          }
+        }
+      },
+      "name": "org.mcphackers:launchwrapper:1.0"
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "d96c99a30f5e1a19b0e609dbb19a44d8518ac01e",
+          "path": "org/ow2/asm/asm-tree/9.2/asm-tree-9.2.jar",
+          "size": 52660,
+          "url": "https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/9.2/asm-tree-9.2.jar"
+        },
+        "classifiers": {
+          "sources": {
+            "sha1": "d7c4f2660898c227b2fb209f94ca15ae45722535",
+            "path": "org/ow2/asm/asm-tree/9.2/asm-tree-9.2-sources.jar",
+            "size": 76044,
+            "url": "https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/9.2/asm-tree-9.2-sources.jar"
+          }
+        }
+      },
+      "name": "org.ow2.asm:asm-tree:9.2"
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "81a03f76019c67362299c40e0ba13405f5467bff",
+          "path": "org/ow2/asm/asm/9.2/asm-9.2.jar",
+          "size": 122004,
+          "url": "https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.2/asm-9.2.jar"
+        },
+        "classifiers": {
+          "sources": {
+            "sha1": "51671fdebd3583f10254fab0e2077ed49c461650",
+            "path": "org/ow2/asm/asm/9.2/asm-9.2-sources.jar",
+            "size": 180459,
+            "url": "https://repo.maven.apache.org/maven2/org/ow2/asm/asm/9.2/asm-9.2-sources.jar"
+          }
+        }
+      },
+      "name": "org.ow2.asm:asm:9.2"
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "39c7796b469a600f72380316f6b1f11db6c2c7c4",
+          "path": "net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar",
+          "size": 208338,
+          "url": "https://libraries.minecraft.net/net/java/jinput/jinput/2.0.5/jinput-2.0.5.jar"
+        },
+        "classifiers": {
+          "sources": {
+            "sha1": "82604cfeb87b9ab70ed70aa19a137de8ceb21504",
+            "path": "net/java/jinput/jinput/2.0.5/jinput-2.0.5-sources.jar",
+            "size": 282276,
+            "url": "https://libraries.minecraft.net/net/java/jinput/jinput/2.0.5/jinput-2.0.5-sources.jar"
+          }
+        }
+      },
+      "name": "net.java.jinput:jinput:2.0.5"
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "e12fe1fda814bd348c1579329c86943d2cd3c6a6",
+          "path": "net/java/jutils/jutils/1.0.0/jutils-1.0.0.jar",
+          "size": 7508,
+          "url": "https://libraries.minecraft.net/net/java/jutils/jutils/1.0.0/jutils-1.0.0.jar"
+        },
+        "classifiers": {
+          "sources": {
+            "sha1": "d18678a00b216863206a1bb6190507e02a32971b",
+            "path": "net/java/jutils/jutils/1.0.0/jutils-1.0.0-sources.jar",
+            "size": 10247,
+            "url": "https://repo.maven.apache.org/maven2/net/java/jutils/jutils/1.0.0/jutils-1.0.0-sources.jar"
+          }
+        }
+      },
+      "name": "net.java.jutils:jutils:1.0.0"
+    },
+    {
+      "extract": {
+        "exclude": [
+          "META-INF/"
+        ]
+      },
+      "downloads": {
+        "classifiers": {
+          "natives-windows": {
+            "sha1": "385ee093e01f587f30ee1c8a2ee7d408fd732e16",
+            "path": "net/java/jinput/jinput-platform/2.0.5/jinput-platform-2.0.5-natives-windows.jar",
+            "size": 155179,
+            "url": "https://libraries.minecraft.net/net/java/jinput/jinput-platform/2.0.5/jinput-platform-2.0.5-natives-windows.jar"
+          },
+          "natives-osx": {
+            "sha1": "53f9c919f34d2ca9de8c51fc4e1e8282029a9232",
+            "path": "net/java/jinput/jinput-platform/2.0.5/jinput-platform-2.0.5-natives-osx.jar",
+            "size": 12186,
+            "url": "https://libraries.minecraft.net/net/java/jinput/jinput-platform/2.0.5/jinput-platform-2.0.5-natives-osx.jar"
+          },
+          "natives-linux": {
+            "sha1": "7ff832a6eb9ab6a767f1ade2b548092d0fa64795",
+            "path": "net/java/jinput/jinput-platform/2.0.5/jinput-platform-2.0.5-natives-linux.jar",
+            "size": 10362,
+            "url": "https://libraries.minecraft.net/net/java/jinput/jinput-platform/2.0.5/jinput-platform-2.0.5-natives-linux.jar"
+          }
+        }
+      },
+      "name": "net.java.jinput:jinput-platform:2.0.5",
+      "natives": {
+        "osx": "natives-osx",
+        "linux": "natives-linux",
+        "windows": "natives-windows"
+      }
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "sha1": "855b05d238b72b03197e6702a765f344a32b8291",
+          "path": "org/mcphackers/rdi/rdi/1.0/rdi-1.0.jar",
+          "size": 79606,
+          "url": "https://mcphackers.github.io/libraries/org/mcphackers/rdi/rdi/1.0/rdi-1.0.jar"
+        },
+        "classifiers": {
+          "sources": {
+            "sha1": "def0c8e36a96338a9866141088a45fe4bfaab29a",
+            "path": "org/mcphackers/rdi/rdi/1.0/rdi-1.0-sources.jar",
+            "size": 43258,
+            "url": "https://mcphackers.github.io/libraries/org/mcphackers/rdi/rdi/1.0/rdi-1.0-sources.jar"
+          }
+        }
+      },
+      "name": "org.mcphackers.rdi:rdi:1.0"
+    }
+  ],
+  "complianceLevel": 0,
+  "assetIndex": {
+    "sha1": "62ea787c1f800c091b98678b050453a5ae59d7bc",
+    "totalSize": 0,
+    "size": 14,
+    "id": "empty",
+    "url": "https://mcphackers.github.io/assets/empty.json"
+  },
+  "id": "in-20100207-2",
+  "time": "2023-03-20T18:25:26+00:00",
+  "type": "old_alpha"
+}
