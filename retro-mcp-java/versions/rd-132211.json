@@ -22,7 +22,8 @@
             "url": "https://jitpack.io/com/github/Lassebq/legacy-lwjgl3/65db15377d/legacy-lwjgl3-65db15377d-sources.jar"
           }
         }
-      }
+      },
+      "name": "com.github.Lassebq:legacy-lwjgl3:65db15377d"
     },
     {
       "downloads": {
