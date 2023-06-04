@@ -26,14 +26,14 @@
           "path": "com/google/guava/guava/31.1-jre/guava-31.1-jre.jar",
           "sha1": "60458f877d055d0c9114d9e1a2efb737b4bc282c",
           "size": 2959479,
-          "url": "https://repo1.maven.org/maven2/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar"
+          "url": "https://jitpack.io/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar"
         },
         "classifiers": {
           "sources": {
             "sha1": "c388a68bc2b17a314dfa7c769d858ada0fc32dcf",
             "path": "com/google/guava/guava/31.1-jre/guava-31.1-jre-sources.jar",
             "size": 1827642,
-            "url": "https://repo1.maven.org/maven2/com/google/guava/guava/31.1-jre/guava-31.1-jre-sources.jar"
+            "url": "https://jitpack.io/com/google/guava/guava/31.1-jre/guava-31.1-jre-sources.jar"
           }
         }
       },
@@ -45,14 +45,14 @@
           "path": "io/netty/netty-transport/4.1.82.Final/netty-transport-4.1.82.Final.jar",
           "sha1": "e431a218d91acb6476ccad5f5aafde50aa3945ca",
           "size": 485752,
-          "url": "https://repo1.maven.org/maven2/io/netty/netty-transport/4.1.82.Final/netty-transport-4.1.82.Final.jar"
+          "url": "https://jitpack.io/io/netty/netty-transport/4.1.82.Final/netty-transport-4.1.82.Final.jar"
         },
         "classifiers": {
           "sources": {
             "sha1": "a7d580e125df85b115e42a00ee7adfb2b81b3367",
             "path": "io/netty/netty-transport/4.1.82.Final/netty-transport-4.1.82.Final-sources.jar",
             "size": 325432,
-            "url": "https://repo1.maven.org/maven2/io/netty/netty-transport/4.1.82.Final/netty-transport-4.1.82.Final-sources.jar"
+            "url": "https://jitpack.io/io/netty/netty-transport/4.1.82.Final/netty-transport-4.1.82.Final-sources.jar"
           }
         }
       },
@@ -64,14 +64,14 @@
           "path": "io/netty/netty-transport-classes-epoll/4.1.82.Final/netty-transport-classes-epoll-4.1.82.Final.jar",
           "sha1": "e7c7dd18deac93105797f30057c912651ea76521",
           "size": 142066,
-          "url": "https://repo1.maven.org/maven2/io/netty/netty-transport-classes-epoll/4.1.82.Final/netty-transport-classes-epoll-4.1.82.Final.jar"
+          "url": "https://jitpack.io/io/netty/netty-transport-classes-epoll/4.1.82.Final/netty-transport-classes-epoll-4.1.82.Final.jar"
         },
         "classifiers": {
           "sources": {
             "sha1": "7d479710b4240ddd900a9bc8fe31c8f752df25f8",
             "path": "io/netty/netty-transport-classes-epoll/4.1.82.Final/netty-transport-classes-epoll-4.1.82.Final-sources.jar",
             "size": 83741,
-            "url": "https://repo1.maven.org/maven2/io/netty/netty-transport-classes-epoll/4.1.82.Final/netty-transport-classes-epoll-4.1.82.Final-sources.jar"
+            "url": "https://jitpack.io/io/netty/netty-transport-classes-epoll/4.1.82.Final/netty-transport-classes-epoll-4.1.82.Final-sources.jar"
           }
         }
       },
@@ -83,14 +83,14 @@
           "path": "io/netty/netty-resolver/4.1.82.Final/netty-resolver-4.1.82.Final.jar",
           "sha1": "38f665ae8dcd29032eea31245ba7806bed2e0fa8",
           "size": 37776,
-          "url": "https://repo1.maven.org/maven2/io/netty/netty-resolver/4.1.82.Final/netty-resolver-4.1.82.Final.jar"
+          "url": "https://jitpack.io/io/netty/netty-resolver/4.1.82.Final/netty-resolver-4.1.82.Final.jar"
         },
         "classifiers": {
           "sources": {
             "sha1": "7855042d98fd07633901c09987d814f0e49f1b21",
             "path": "io/netty/netty-resolver/4.1.82.Final/netty-resolver-4.1.82.Final-sources.jar",
             "size": 27007,
-            "url": "https://repo1.maven.org/maven2/io/netty/netty-resolver/4.1.82.Final/netty-resolver-4.1.82.Final-sources.jar"
+            "url": "https://jitpack.io/io/netty/netty-resolver/4.1.82.Final/netty-resolver-4.1.82.Final-sources.jar"
           }
         }
       },
@@ -102,14 +102,14 @@
           "path": "io/netty/netty-handler/4.1.82.Final/netty-handler-4.1.82.Final.jar",
           "sha1": "644041d1fa96a5d3130a29e8978630d716d76e38",
           "size": 538569,
-          "url": "https://repo1.maven.org/maven2/io/netty/netty-handler/4.1.82.Final/netty-handler-4.1.82.Final.jar"
+          "url": "https://jitpack.io/io/netty/netty-handler/4.1.82.Final/netty-handler-4.1.82.Final.jar"
         },
         "classifiers": {
           "sources": {
             "sha1": "eb21430492b4087f179f378def9c101af2ceb3a3",
             "path": "io/netty/netty-handler/4.1.82.Final/netty-handler-4.1.82.Final-sources.jar",
             "size": 360308,
-            "url": "https://repo1.maven.org/maven2/io/netty/netty-handler/4.1.82.Final/netty-handler-4.1.82.Final-sources.jar"
+            "url": "https://jitpack.io/io/netty/netty-handler/4.1.82.Final/netty-handler-4.1.82.Final-sources.jar"
           }
         }
       },
@@ -121,14 +121,14 @@
           "path": "io/netty/netty-common/4.1.82.Final/netty-common-4.1.82.Final.jar",
           "sha1": "022d148e85c3f5ebdacc0ce1f5aabb1d420f73f3",
           "size": 653880,
-          "url": "https://repo1.maven.org/maven2/io/netty/netty-common/4.1.82.Final/netty-common-4.1.82.Final.jar"
+          "url": "https://jitpack.io/io/netty/netty-common/4.1.82.Final/netty-common-4.1.82.Final.jar"
         },
         "classifiers": {
           "sources": {
             "sha1": "66841700234dd5771962ec51d940813d421329bf",
             "path": "io/netty/netty-common/4.1.82.Final/netty-common-4.1.82.Final-sources.jar",
             "size": 570743,
-            "url": "https://repo1.maven.org/maven2/io/netty/netty-common/4.1.82.Final/netty-common-4.1.82.Final-sources.jar"
+            "url": "https://jitpack.io/io/netty/netty-common/4.1.82.Final/netty-common-4.1.82.Final-sources.jar"
           }
         }
       },
@@ -140,14 +140,14 @@
           "path": "io/netty/netty-codec/4.1.82.Final/netty-codec-4.1.82.Final.jar",
           "sha1": "b77200379acb345a9ffdece1c605e591ac3e4e0a",
           "size": 339155,
-          "url": "https://repo1.maven.org/maven2/io/netty/netty-codec/4.1.82.Final/netty-codec-4.1.82.Final.jar"
+          "url": "https://jitpack.io/io/netty/netty-codec/4.1.82.Final/netty-codec-4.1.82.Final.jar"
         },
         "classifiers": {
           "sources": {
             "sha1": "cca3483023dc4ea2fecd674a43e6648104b93bef",
             "path": "io/netty/netty-codec/4.1.82.Final/netty-codec-4.1.82.Final-sources.jar",
             "size": 279404,
-            "url": "https://repo1.maven.org/maven2/io/netty/netty-codec/4.1.82.Final/netty-codec-4.1.82.Final-sources.jar"
+            "url": "https://jitpack.io/io/netty/netty-codec/4.1.82.Final/netty-codec-4.1.82.Final-sources.jar"
           }
         }
       },
@@ -159,14 +159,14 @@
           "path": "io/netty/netty-buffer/4.1.82.Final/netty-buffer-4.1.82.Final.jar",
           "sha1": "a544270cf1ae8b8077082f5036436a9a9971ea71",
           "size": 304664,
-          "url": "https://repo1.maven.org/maven2/io/netty/netty-buffer/4.1.82.Final/netty-buffer-4.1.82.Final.jar"
+          "url": "https://jitpack.io/io/netty/netty-buffer/4.1.82.Final/netty-buffer-4.1.82.Final.jar"
         },
         "classifiers": {
           "sources": {
             "sha1": "6eca8b1b4342f92f178eabf50fbdb9a6732fb350",
             "path": "io/netty/netty-buffer/4.1.82.Final/netty-buffer-4.1.82.Final-sources.jar",
             "size": 200530,
-            "url": "https://repo1.maven.org/maven2/io/netty/netty-buffer/4.1.82.Final/netty-buffer-4.1.82.Final-sources.jar"
+            "url": "https://jitpack.io/io/netty/netty-buffer/4.1.82.Final/netty-buffer-4.1.82.Final-sources.jar"
           }
         }
       },
@@ -178,14 +178,14 @@
           "path": "com/google/code/gson/gson/2.10.1/gson-2.10.1.jar",
           "sha1": "b3add478d4382b78ea20b1671390a858002feb6c",
           "size": 283367,
-          "url": "https://repo1.maven.org/maven2/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar"
+          "url": "https://jitpack.io/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar"
         },
         "classifiers": {
           "sources": {
             "sha1": "982a90132e942f302e6fe79d6e78c4bc2e998569",
             "path": "com/google/code/gson/gson/2.10.1/gson-2.10.1-sources.jar",
             "size": 181840,
-            "url": "https://repo1.maven.org/maven2/com/google/code/gson/gson/2.10.1/gson-2.10.1-sources.jar"
+            "url": "https://jitpack.io/com/google/code/gson/gson/2.10.1/gson-2.10.1-sources.jar"
           }
         }
       },
@@ -197,18 +197,37 @@
           "path": "org/joml/joml/1.10.5/joml-1.10.5.jar",
           "sha1": "22566d58af70ad3d72308bab63b8339906deb649",
           "size": 712082,
-          "url": "https://repo1.maven.org/maven2/org/joml/joml/1.10.5/joml-1.10.5.jar"
+          "url": "https://jitpack.io/org/joml/joml/1.10.5/joml-1.10.5.jar"
         },
         "classifiers": {
           "sources": {
             "sha1": "c1f2266a7d0386d7643879ed1b93f51d29126180",
             "path": "org/joml/joml/1.10.5/joml-1.10.5-sources.jar",
             "size": 691986,
-            "url": "https://repo1.maven.org/maven2/org/joml/joml/1.10.5/joml-1.10.5-sources.jar"
+            "url": "https://jitpack.io/org/joml/joml/1.10.5/joml-1.10.5-sources.jar"
           }
         }
       },
       "name": "org.joml:joml:1.10.5"
+    },
+    {
+      "downloads": {
+        "artifact": {
+          "path": "com/github/Lassebq/legacy-lwjgl3/65db15377d/legacy-lwjgl3-65db15377d.jar",
+          "sha1": "5c93f9921c222a9e58e0a9dcbe5445961ee1476b",
+          "size": 210590,
+          "url": "https://jitpack.io/com/github/Lassebq/legacy-lwjgl3/65db15377d/legacy-lwjgl3-65db15377d.jar"
+        },
+        "classifiers": {
+          "sources": {
+            "sha1": "b3437d1d2112fe1f6878e87c1c7cb67d7e4b06a0",
+            "path": "com/github/Lassebq/legacy-lwjgl3/65db15377d/legacy-lwjgl3-65db15377d-sources.jar",
+            "size": 147840,
+            "url": "https://jitpack.io/com/github/Lassebq/legacy-lwjgl3/65db15377d/legacy-lwjgl3-65db15377d-sources.jar"
+          }
+        }
+      },
+      "name": "com.github.Lassebq:legacy-lwjgl3:65db15377d"
     },
     {
       "extract": {
