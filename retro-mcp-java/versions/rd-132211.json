@@ -9,6 +9,24 @@
     {
       "downloads": {
         "artifact": {
+          "path": "com/github/Lassebq/legacy-lwjgl3/65db15377d/legacy-lwjgl3-65db15377d.jar",
+          "sha1": "5c93f9921c222a9e58e0a9dcbe5445961ee1476b",
+          "size": 210590,
+          "url": "https://jitpack.io/com/github/Lassebq/legacy-lwjgl3/65db15377d/legacy-lwjgl3-65db15377d.jar"
+        },
+        "classifiers": {
+          "sources": {
+            "path": "com/github/Lassebq/legacy-lwjgl3/65db15377d/legacy-lwjgl3-65db15377d-sources.jar",
+            "sha1": "b3437d1d2112fe1f6878e87c1c7cb67d7e4b06a0",
+            "size": 147840,
+            "url": "https://jitpack.io/com/github/Lassebq/legacy-lwjgl3/65db15377d/legacy-lwjgl3-65db15377d-sources.jar"
+          }
+        }
+      }
+    },
+    {
+      "downloads": {
+        "artifact": {
           "path": "com/google/guava/guava/31.1-jre/guava-31.1-jre.jar",
           "sha1": "60458f877d055d0c9114d9e1a2efb737b4bc282c",
           "size": 2959479,
